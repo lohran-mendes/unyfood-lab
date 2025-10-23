@@ -1,0 +1,16 @@
+.ButtonComponent {
+  font-size: 1rem;
+  font-weight: 600;
+  color: white;
+  border-radius: 8px;
+  min-width: 115px;
+  height: 45px;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  cursor: pointer;
+}
+.ButtonComponent:hover {
+  transition: 0.3s;
+  background-color: white !important;
+  color: var(--hover-color);
+}

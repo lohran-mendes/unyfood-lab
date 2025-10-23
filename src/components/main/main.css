@@ -1,0 +1,9 @@
+.MainComponent {
+margin-top: 40px;
+}
+.MainComponent h1 {
+font-weight: 600;
+font-size: 1.5rem;
+color: #303030;
+text-align: center;
+}

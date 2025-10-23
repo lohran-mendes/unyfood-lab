@@ -1,0 +1,21 @@
+.CategoryCardComponent {
+  width: 380px;
+  height: 211px;
+  border-radius: 8px;
+  background-color: var(--backgroundColor);
+  padding: 24px;
+  display: flex;
+  gap: 10px;
+  color: white;
+ box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.CategoryCardComponent .text {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  font-size: 2rem;
+}

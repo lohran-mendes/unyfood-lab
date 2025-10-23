@@ -1,0 +1,7 @@
+.CategoryListComponent {
+  margin: 40px 0;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 60px;
+}

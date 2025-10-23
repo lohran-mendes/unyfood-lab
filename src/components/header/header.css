@@ -1,0 +1,38 @@
+.HeaderComponent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.HeaderComponent h1 {
+  font-family: "Inter", sans-serif;
+  color: #ed1c16;
+  font-weight: 800;
+  font-size: 2.5rem;
+}
+
+.HeaderComponent nav {
+  margin-left: auto;
+  margin-right: -8px;
+  display: flex;
+  align-items: center;
+}
+
+.HeaderComponent nav ul {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.HeaderComponent nav a {
+  transition: color 0.3s;
+  letter-spacing: 0.0625rem;
+  padding: 12px 8px;
+  &:hover {
+    color: #ed1c16;
+  }
+}
+
+.HeaderComponent .ButtonComponent {
+  margin-right: 10px;
+}
